@@ -1,1 +1,60 @@
+# Banking Stock Performance Analysis
 
+## Overview
+
+An introductory financial data analysis project comparing the historical performance of Barclays, HSBC and JPMorgan Chase over a one-year period.
+
+This project was completed as a guided learning exercise to develop practical skills in Python, financial data analysis and visualisation.
+
+## Research Question
+
+How do the historical returns, volatility and risk-adjusted performance of Barclays, HSBC and JPMorgan Chase compare over a one-year period?
+
+## Technologies
+
+- Python
+- pandas
+- yfinance
+- Matplotlib
+- Jupyter Notebook
+
+## Methodology
+
+1. Retrieved historical stock market data using yfinance.
+2. Explored and inspected the datasets using pandas.
+3. Visualised adjusted closing prices.
+4. Calculated daily percentage returns.
+5. Measured volatility using standard deviation.
+6. Compared total returns and risk-adjusted performance.
+7. Normalised share prices to compare relative performance.
+
+## Key Findings
+
+| Bank | Total Return | Daily Volatility |
+|------|-------------:|-----------------:|
+| Barclays | 14.11% | 1.96% |
+| HSBC | 44.40% | 1.70% |
+| JPMorgan | 15.69% | 1.40% |
+
+HSBC achieved the highest historical return and strongest risk-adjusted performance during the observation period.
+
+Barclays exhibited the highest daily volatility.
+
+## Limitations
+
+- The analysis covers approximately one year of historical data.
+- Only three banking stocks were examined.
+- Returns are calculated in each stock's trading currency.
+- Exchange-rate movements were not incorporated.
+- The Sharpe ratio assumes a zero risk-free rate.
+- Historical performance does not predict future returns.
+
+## Project Files
+
+- `banking_stock_analysis.ipynb` — Main analysis notebook.
+
+## Learning Outcomes
+
+This guided project developed practical experience in collecting, cleaning, analysing and visualising financial data using Python.
+
+It also provided an introduction to financial performance metrics, including daily returns, volatility and the Sharpe ratio.
